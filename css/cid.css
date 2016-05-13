@@ -10,24 +10,42 @@ body {
   }
 
 h2, label {
-  text-transform: uppercase;
-  color: #555;
+  color: #3e8e64;
   font-weight: 700;
-  font-size: 1em;
-  margin: 0;
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-li, h3 {
+h3 {
   font-size: 2.5em;
   line-height: 1.7em;
   color: #ccc;
   font-weight: 300;
   margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  font-size: 2em;
+  line-height: 1.7em;
+  color: #ccc;
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  color: #ccc;
+}
+
+a {
+    color: #3e8e64;
+    /*font-weight: 700;*/
+    text-decoration: underline;
+}
+a:hover {
+  color: #58CA8E;
 }
 
 .part {
@@ -35,7 +53,7 @@ li, h3 {
 }
 
 .sponsors img {
-    margin: 1em 2em 0 2em;
+    margin: 1em 2em 6em 2em;
     opacity: 0.8;
     -webkit-transition: all 0.15s ease-in-out;
     zoom: 0.5;
@@ -91,7 +109,7 @@ li, h3 {
       }
   }
 
-  .video-player {
+.video-player {
   position: relative;
   max-width: 934px;
   margin: 0 auto;
@@ -190,6 +208,9 @@ li, h3 {
 }
 
 .register a {
+    margin-left: 15px;
+    margin-right: 15px;
+
     font-size: 75%;
     background: #57C88C;
     padding: 10px 30px;
@@ -237,10 +258,16 @@ label {
     transition: border linear .2s,box-shadow linear .2s;
 }
 
-    #newsletter-subscribe button:hover,
-    #newsletter-subscribe input:focus {
-        border-color: #59cb8f;
-        -webkit-box-shadow: 0 0 6px #73e8aa;
-        -moz-box-shadow: 0 0 6px #73e8aa;
-        box-shadow: 0 0 6px #73e8aa;
-    }
+#newsletter-subscribe button:hover,
+#newsletter-subscribe input:focus {
+    border-color: #59cb8f;
+    -webkit-box-shadow: 0 0 6px #73e8aa;
+    -moz-box-shadow: 0 0 6px #73e8aa;
+    box-shadow: 0 0 6px #73e8aa;
+}
+
+.copyright-notice {
+  margin-top: 1.5em;
+  font-size: 0.9em;
+}
+
